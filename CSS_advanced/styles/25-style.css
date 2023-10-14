@@ -556,10 +556,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--footer-padding);
 }
 
-[data-section-theme='dark'] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
+    --button-color: var(--color-white);
 }
 
 .footer-address {
